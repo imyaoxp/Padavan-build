@@ -45,9 +45,9 @@ jobs:
         echo "configs/templates/$TNAME.config not found "
         exit 1
         fi
-sed 's/192.168.2/192.168.1/g' -i user/shared/defaults.h
-sed 's/_%s//g' -i user/shared/defaults.h
-sed 's/1234567890/38363428/g' -i user/shared/defaults.h
+        sed 's/192.168.2/192.168.1/g' -i user/shared/defaults.h
+        sed 's/_%s//g' -i user/shared/defaults.h
+        sed 's/1234567890/38363428/g' -i user/shared/defaults.h
 
 
 
